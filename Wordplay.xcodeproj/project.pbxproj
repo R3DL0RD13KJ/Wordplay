@@ -13,6 +13,7 @@
 		FE94B9B727285A9D00DF0D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE94B9B527285A9D00DF0D78 /* Main.storyboard */; };
 		FE94B9B927285A9E00DF0D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE94B9B827285A9E00DF0D78 /* Assets.xcassets */; };
 		FE94B9BC27285A9E00DF0D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE94B9BA27285A9E00DF0D78 /* LaunchScreen.storyboard */; };
+		FE94B9C4272860C100DF0D78 /* OmegaDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE94B9C3272860C100DF0D78 /* OmegaDelta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FE94B9B827285A9E00DF0D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE94B9BB27285A9E00DF0D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE94B9BD27285A9E00DF0D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE94B9C3272860C100DF0D78 /* OmegaDelta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmegaDelta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FE94B9B127285A9D00DF0D78 /* SceneDelegate.swift */,
 				FE94B9B327285A9D00DF0D78 /* ViewController.swift */,
 				FE94B9B527285A9D00DF0D78 /* Main.storyboard */,
+				FE94B9C3272860C100DF0D78 /* OmegaDelta.swift */,
 				FE94B9B827285A9E00DF0D78 /* Assets.xcassets */,
 				FE94B9BA27285A9E00DF0D78 /* LaunchScreen.storyboard */,
 				FE94B9BD27285A9E00DF0D78 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				FE94B9B427285A9D00DF0D78 /* ViewController.swift in Sources */,
 				FE94B9B027285A9D00DF0D78 /* AppDelegate.swift in Sources */,
+				FE94B9C4272860C100DF0D78 /* OmegaDelta.swift in Sources */,
 				FE94B9B227285A9D00DF0D78 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
