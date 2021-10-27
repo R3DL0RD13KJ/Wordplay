@@ -15,6 +15,8 @@ class ViewController: UIViewController
     
     @IBOutlet weak var whatsLife: UILabel!
     
+    @IBOutlet weak var mainTextField: UITextField!
+    
     
     
     override func viewDidLoad()
@@ -24,6 +26,35 @@ class ViewController: UIViewController
         
     }
 
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+            {
+                let nextViewController = segue.destination as! OmegaDelta
+            
+                if segue.identifier == "alphaBeta"
+                {
+                    nextViewController.myAnswer = ""
+                }
+                else
+                {
+                    nextViewController.myAnswer = ""
+                }
+    }
+    
+    
+    
+    @IBAction func finishSentence(_ sender: Any)
+    {
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     
     @IBAction func completeSentence(_ sender: Any)
     {

@@ -9,13 +9,21 @@ import UIKit
 
 class OmegaDelta: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
     
 
+    @IBOutlet weak var surveySays: UILabel!
+    var myAnswer = ""
+    
+    
+    
+    override func viewDidLoad()
+        {
+            super.viewDidLoad()
+            // Do any additional setup after loading the view.
+        surveySays.text = UILabel(named: "myAnswer")
+        }
+    
+    
     /*
     // MARK: - Navigation
 
