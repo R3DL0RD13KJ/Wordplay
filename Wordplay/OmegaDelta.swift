@@ -20,7 +20,7 @@ class OmegaDelta: UIViewController {
         {
             super.viewDidLoad()
             // Do any additional setup after loading the view.
-        surveySays.text = UILabel(named: "myAnswer")
+        surveySays.text = "My Uncle wants to go the \(myAnswer)"
         }
     
     

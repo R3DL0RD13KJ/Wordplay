@@ -17,7 +17,7 @@ class ViewController: UIViewController
     
     @IBOutlet weak var mainTextField: UITextField!
     
-    
+    var surveySays2 = ""
     
     override func viewDidLoad()
     {
@@ -30,16 +30,13 @@ class ViewController: UIViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
             {
                 let nextViewController = segue.destination as! OmegaDelta
-            
-                if segue.identifier == "alphaBeta"
-                {
-                    nextViewController.myAnswer = ""
-                }
-                else
-                {
-                    nextViewController.myAnswer = ""
-                }
-    }
+                
+        surveySays2 = mainTextField.text ?? ""
+        
+                
+        
+        nextViewController.myAnswer = surveySays2
+            }
     
     
     
