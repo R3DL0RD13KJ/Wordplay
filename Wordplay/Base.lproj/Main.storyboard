@@ -56,7 +56,19 @@
                                     <segment title="Noun"/>
                                     <segment title="Verb"/>
                                 </segments>
+                                <connections>
+                                    <action selector="myFinishWord:" destination="BYZ-38-t0r" eventType="valueChanged" id="PMp-uw-HEt"/>
+                                </connections>
                             </segmentedControl>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Anything you want" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NdC-3q-IYV">
+                                <rect key="frame" x="20" y="605" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <segue destination="gDC-QI-uVd" kind="show" identifier="FivesGamma" id="XI2-BM-DhR"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -71,7 +83,9 @@
                     <connections>
                         <outlet property="mainTextField" destination="kSx-X3-p9R" id="5vM-Nx-Hbo"/>
                         <outlet property="myUncle" destination="s8v-Qi-szT" id="ljl-Fz-Zrz"/>
+                        <outlet property="secondTextField" destination="NdC-3q-IYV" id="gRG-fC-f6U"/>
                         <outlet property="whatsLife" destination="Gl7-dI-HqF" id="IVR-bc-3PO"/>
+                        <outlet property="yourAddedWords" destination="PEa-Zi-Z9x" id="5lJ-0q-dB2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -125,6 +139,9 @@
             <point key="canvasLocation" x="28.985507246376812" y="73.660714285714278"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="XI2-BM-DhR"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

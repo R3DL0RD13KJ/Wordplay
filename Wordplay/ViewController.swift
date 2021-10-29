@@ -19,6 +19,14 @@ class ViewController: UIViewController
     
     var surveySays2 = ""
     
+    @IBOutlet weak var secondTextField: UITextField!
+    
+    @IBOutlet weak var yourAddedWords: UISegmentedControl!
+    
+    var surveySays3 = ""
+    
+    
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -46,9 +54,23 @@ class ViewController: UIViewController
     }
     
     
-    
-    
-    
+    @IBAction func myFinishWord(_ sender: Any)
+    {
+        switch yourAddedWords.selectedSegmentIndex
+        {
+        case 0:
+            surveySays2 = ""
+            secondTextField.text = surveySays3
+        case 1:
+            surveySays2 = ""
+            secondTextField.text = surveySays3
+        case 2:
+            surveySays2 = ""
+            secondTextField.text = surveySays3
+        default:
+            break
+        }
+    }
     
     
     

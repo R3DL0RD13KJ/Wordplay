@@ -23,6 +23,10 @@ class OmegaDelta: UIViewController {
         surveySays.text = "My Uncle wants to go the \(myAnswer)"
         }
     
+    override func viewDidLoad()
+    {
+        surveySays.text = "\(myAnswer)"
+    }
     
     /*
     // MARK: - Navigation
